@@ -53,9 +53,6 @@
    [whitespace (make_token input-port)]
    ))
 
-;(define tokens(make_token(open-input-file "input02.txt"))) ;testing
-;tokens  ;testing
-
 (define (RPAR tokens)
   [cond
     [(equal? (first tokens) `RPAR) (rest tokens)]
@@ -155,12 +152,3 @@
 ;allows input file to run
 (define (parse input-file)
  (program (make_token (open-input-file input-file)))) 
-
-
-;just comment out and run
-
-;(parse "file01.txt")
-;(parse "file02.txt")
-;(parse "file03.txt")
-;(parse "file04.txt")
-;(parse "file05.txt")
