@@ -159,8 +159,8 @@
 
 ;just comment out and run
 
-;(parse "input01.txt")
-;(parse "input02.txt")
-;(parse "input03.txt")
-;(parse "input04.txt")
-;(parse "input05.txt")
+;(parse "file01.txt")
+;(parse "file02.txt")
+;(parse "file03.txt")
+;(parse "file04.txt")
+;(parse "file05.txt")
