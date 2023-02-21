@@ -1,4 +1,5 @@
 #lang racket
+#require port
 (require (prefix-in : parser-tools/lex-sre))
 (require parser-tools/lex)
 (require parser-tools/lex-sre)
